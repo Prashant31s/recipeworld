@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="IndianCuisine.css" />
+
+    <title>Indian Cuisine-Recipe World</title>
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+<!-- navigation bar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
+      style="background-color: #e3f2fd"
+    >
+    <h4 class="h4  text-info font-weight-bold ">Easy<span class="  h4  text-danger font-weight-bolder " style="padding-right: 5px;">Cooking </span></h4>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link btn-outline-warning" style="padding-left: 10px;"href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link btn-outline-warning" style="padding-left: 10px;"href="PunjabiCuisine.html">Punjabi Cuisine <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle btn-outline-warning"
+style="padding-left: 10px;"              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              South-Indian Cuisine
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#DosaItems">Dosas</a>
+              
+              <a class="dropdown-item" href="#UtpamItems">Upma & Uttapams</a>
+              <a class="dropdown-item" href="#IdliItems">Idlis</a>
+              <a class="dropdown-item" href="#VadaItems">Vadas </a>
+              
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link btn-outline-warning" style="padding-left: 10px;"href="ChineseCuisine.html">Chinese Cuisine <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link btn-outline-warning" style="padding-left: 10px;"href="MexicanCuisine.html">Mexican Cuisine <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link btn-outline-warning "style="padding-left: 10px;" href="https://www.bigbasket.com/" target="_blank">Shop Now <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <!-- how to link section of different page -->
+          <a class="nav-link navpad btn-outline-info" style="padding-left: 10px;" href="index.html#aboutus"
+            >Contact Me <span class="sr-only">(current)</span></a>
+        </form>
+      </div>
+    </nav>
+<!-- description about food -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="h1 font-weight-bolder">Indian Cuisine</h1>
+        <p class="lead">
+            Indian cuisine consists of a variety of regional and traditional cuisines native to the Indian subcontinent. Given the diversity in soil, climate, culture, ethnic groups, and occupations, these cuisines vary substantially and use locally available spices, herbs, vegetables, and fruits.
+
+            Indian food is also heavily influenced by religion, in particular Hinduism, cultural choices and traditions. Centuries of Islamic rule, particularly by the Mughals, also introduced dishes like samosa and pilaf.
+            
+            Historical events such as invasions, trade relations, and colonialism have played a role in introducing certain foods to this country. The Columbian discovery of the New World brought a number of new vegetables and fruit to India. A number of these such as potatoes, tomatoes, chillies, peanuts, and guava have become staples in many regions of India.
+            
+            Indian cuisine has shaped the history of international relations; the spice trade between India and Europe was the primary catalyst for Europe's Age of Discovery. Spices were bought from India and traded around Europe and Asia. Indian cuisine has influenced other cuisines across the world, especially those from Europe (especially Britain), the Middle East, Southern African, East Africa, Southeast Asia, North America, Mauritius, Fiji, Oceania, and the Caribbean.
+        </p>
+      </div>
+    </div>
+<!-- pictured of food -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide pic"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/ic1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/ic2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/ic3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+   
+    <br />
+    <br />
+<!-- reciepe section     -->
+    <nav class="navbar navbar navbar-light" style="background-color: #e3f2fd">
+      <div class="mx-auto">
+        <h2 class="h2 font-weight-bolder">"All The Recipes"</h2>
+      </div>
+    </nav>
+
+    <!--Dosa cooking video section -->
+    <div>
+      <div class="box">
+        <button type="button" class="btn-danger btn-lg disabled">
+          <h3 id="DosasItems">Dosas :</h3>
+        </button>
+
+        <br />
+        <br />
+
+        <div
+          class="
+            row row-cols-md-1 row row-cols-1 row row-cols-sm-1 row-cols-lg-2
+          "
+        >
+          <div class="col col1 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              
+               
+                <iframe  class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/gY1LXg8AnU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Aloo Masala Dosa Recipe | By CookingShooking  
+                </h5>
+
+                <p class="card-text overflow">
+                  For Batter / Dosa Pindi - 2 cups rice<br/>
+½ cup urad Dal<br/>
+⅓ cup Chana Dal<br/>
+1 tsp Methi Seeds / Fenugreek <br/>
+
+For aloo masala<br/>
+Oil - 1 tbsp<br/>
+Sarso  - 1 tsp<br/>
+Curry leaves - 2 sprig<br/>
+Adrak - ½ inch <br/>
+Hari Mirchi - 2-3 <br/>
+Onion - sliced <br/>
+Haldi - ½ tsp<br/>
+Boiled Aloo - 5<br/>
+Red Chilli Powder - 1 tsp<br/>
+Salt - to taste<br/>
+Dhaniya Fresh - 1 tbsp<br/>
+
+Namak- as per taste<br/>
+Oil - to roast dosas<br/>
+
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col1 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              
+                
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/XvvObytWWSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Sambhar Recipe | By Chef Ranveer Brar
+                </h5>
+                <p class="card-text overflow">
+                  Preparation time: 10 minutes<br/>
+                  Cooking time: 25-35 minutes<br/>
+                  Serves: 4<br/>
+                  Course: Main<br/>
+                  Cuisine: Udupi, Karnataka (Southern Indian)<br/>
+                  
+                  Ingredients: 🍛<br/>
+                  For the Masala <br/>
+                  3 tbsp Coriander seeds, धनिया के बीज<br/>
+                  1 tbsp Cumin seeds, जीरा<br/>
+                  2 tbsp Urad dal, उड़द की दाल<br/>
+                  1 tbsp Chana dal, चना दाल <br/>
+                  ½ tsp Fenugreek seeds, मेथी दाना<br/>
+                  5-6 dry Red chillies, सूखी लाल मिर्च<br/>
+                  1 ½ tbsp Oil, तेल<br/>
+                  ½ tsp Asafoetida, हींग <br/>
+                  ¼ cup fresh Coconut, white part, grated, नारियल कसा हुआ<br/>
+                  ¼ cup Water, पानी<br/>
+                  
+                  For Sambar : <br/>
+                  ½ cup Toor Dal, तूर दाल<br/>
+                  2 cups Water, पानी<br/>
+                  Salt to taste, नमक स्वादअनुसार<br/>
+                  ½ tsp Turmeric powder, हल्दी पाउडर<br/>
+                  ¼ tsp Red chilli powder, लाल मिर्च पाउडर<br/>
+                  2 cups Water, पानी (to cook vegetables)<br/>
+                  2 Drumsticks, remove edge and cut into 1 inch long, सहजन<br/>
+                  2 cups Pumpkin, peeled, cut into cubes, कद्दू<br/>
+                  4-5 Aubergine, cut into quarters, बैंगन<br/>
+                  4-5 Okras, cut into 1 inch, भिंडी <br/>
+                  ¼ cup Tamarind pulp, इमली का गूदा<br/>
+                  Salt to taste,  नमक स्वादअनुसार <br/>
+                  4 heaped tbsp Sambar Masala, साम्बर मसाला <br/>
+                  2 tbsp Jaggery, grated गुड़<br/>
+                  
+                  For tempering :
+                  2 tbsp Oil, तेल<br/>
+                  1 tsp Mustard seeds,  राय<br/>
+                  Pinch of Asafoetida, हींग<br/>
+                  2 dry Red chillies, broken, सूखी लाल मिर्च<br/>
+                  2 sprig  Curry leaves, करी पत्ता<br/>
+                  
+                  Method ♨️
+                  
+                  For Masala :
+                  ●In a plate take, coriander seeds, cumin seeds, urad dal, chana dal, fenugreek seeds and dry red chilli.<br/>
+                  ●Heat oil in a pan, add all dry spices and dal saute well. <br/>
+                  ●Add asafoetida and saute it well. Add fresh coconut and mix everything well, add little water to make a paste. <br/>
+                  ●Transfer this mixture into a grinder and grind it into a smooth paste. <br/>
+                  ●Transfer the paste into a bowl and keep it aside for future use. <br/>
+                  For Sambar :<br/>
+                  ●In a pressure cooker, add toor dal, water as required, salt to taste, turmeric powder and red chilli powder.<br/>
+                  ●Cover it with the lid and pressure cook until it's done. <br/>
+                  ●In another saucepot, add 2 cups of water. Drumstick, salt to taste, pumpkin and cook for 5-6 minutes. <br/>
+                  ●Now , add aubergine, okra, cooked toor dal and mix well.<br/>
+                  ●Add a little water, tamarind pulp, salt to taste and prepare sambar masala and mix everything well and let it cook for 5 minute on medium flame. <br/>
+                  For Tempering :<br/>
+                  ●Heat oil in a  pan. <br/>
+                  ●Add mustard seeds, asafoetida, dry red chillies and curry leaves. Let them splutter.<br/> 
+                  ●Pour this tempering over the prepared sambar and mix well. <br/>
+                  ●Finally, add chopped jaggery and give a nice stir.<br/>
+                  ●Once the sambhar has reached the correct thickness, turn off the flame and serve hot along with rice.<br/>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col1 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+            
+                
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/BbqDlylrQKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Jini Dosa Recipe | By Your Food Lab
+                </h5>
+                <p class="card-text overflow">
+                  Prep time: 20-25 minutes (doesn’t include the soaking and fermentation time)<br/>
+                  Cooking time: 20-25 minutes<br/>
+                  Serves: 12-15 dosa (depending on its size)<br/>
+                  
+                  For dosa batter:<br/>
+                  Ingredients:<br/>
+                  • Ukdha chawal 200gm<br/>
+                  • Urad dal 50gm<br/>
+                  • Methi seeds 1/4 tsp<br/>
+                  • Besan 50gm<br/>
+                  • Sooji 50gm<br/>
+                  • Salt to taste<br/>
+                  Method:<br/>
+                  • Wash the dal and rice together at least 3-4 times or until the water is clears, add methi<br/>
+                    seeds to it and let them soak for an hour at least.<br/>
+                  • After they have been soaked, drain all the excess water and grind it into fine paste using<br/>
+                   a mixer grinder, make sure you add little quantities of water in batches while grinding, you<br/>
+                    don’t want the paste to be extremely thin.<br/>
+                  • In a separate bowl combine besan, sooji, salt and gradually add water & whisk until you get<br/>
+                   a smooth paste.<br/>
+                  • Now add the grinded rice and urad dal mixture to the besan and sooji paste and mix everything<br/>
+                   well using a whisk, gradually add water and make a thick lump-free batter, cover it and let it<br/>
+                    rest in a warm place for it to ferment for at least 3-4 hours.<br/>
+                  • After the batter gets fermented check the consistency, it should be thick enough to spread <br/>
+                  easily, add some water and whisk it again if it’s too thick.<br/>
+                  • Check for salt and adjust accordingly, your dosa batter is ready.<br/>
+                  
+                  For jini dosa masala:<br/>
+                  Ingredients:<br/>
+                  • Butter 1 tbsp<br/>
+                  • Oil 1 tsp<br/>
+                  • Cumin seeds 1/2 tsp<br/>
+                  • Onions 2 medium size (chopped)<br/>
+                  • Tomatoes 2 medium size (chopped)<br/>
+                  • Capsicum 1 cup (chopped)<br/>
+                  • Cabbage 1 cup (shredded or chopped)<br/>
+                  • Schezwan chutney 4 tbsp<br/>
+                  • Ketchup 2 tbsp<br/>
+                  • Red chilli sauce 1 tbsp (optional)<br/>
+                  • Salt to taste<br/>
+                  • Garam masala 1 tsp<br/>
+                  • Kashmiri red chilli powder 1 tbsp<br/>
+                  Method:<br/>
+                  • Set a tawa on high heat and add butter, oil and cumin seeds, allow it to crackle.<br/>
+                  • Further add the onions, stir & cook until the onions turn translucent.<br/>
+                  • Once the onions turn translucent, add the chopped tomatoes and sprinkle some salt to taste.<br/>
+                  • Further add capsicum, cabbage followed by the remaining sauces, adjust salt to taste, add<br/>
+                   garam masala and kashmiri red chilli powder, mix everything well and cook for 1-2 minutes,<br/>
+                    use a potato masher to mash everything lightly.<br/>
+                  • Your masala for jinni dosa is ready.<br/>
+                  For jinni dosa:<br/>
+                  Ingredients:<br/>
+                  • Dosa batter as required<br/>
+                  • Masala as required<br/>
+                  • Paneer 50-80gm (grated)<br/>
+                  • Processed cheese as required<br/>
+                  • Fresh coriander 1 tbsp (chopped)<br/>
+                  • Spring onion green 1 tbsp (chopped)<br/>
+                  Method:<br/>
+                  • Set a dosa tawa on high heat and let it heat nicely, adjust the temperature of the tawa<br/>
+                   by sprinkling some water on to it, once the tawa gets hot enough put a spoonful of the <br/>
+                   dosa batter on the tawa and start moving the spoon in a circular motion outward to form<br/>
+                    a dosa, spread the batter evenly and make a thin layer.<br/>
+                  • Lower the flame and add the masala as required and spread it evenly across the dosa.<br/>
+                  • Further grate some paneer on the dosa along with processed cheese, add fresh coriander and<br/>
+                   spring onion greens.<br/>
+                  • Once the dosa get cooked, remove it and transfer it onto a chopping board or a plate and<br/>
+                   cut it into thick strips and roll it.<br/>
+                  • Your jinni dosa is ready.<br/>
+                  • Grate some cheese on top of it while serving and serve with coconut chutney and schezwan chutney.<br/>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col1 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+             
+                
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/7yop_KC4kPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  South Indian Nariyal Chutney Recipe | By Chef Ranveer Brar
+                </h5>
+                <p class="card-text overflow">
+                  
+COCONUT CHUTNEY :<br/>
+Preparation time : 10 minutes<br/>
+Cooking time : 10 minutes<br/>
+Servings : 2<br/>
+
+Ingredients :<br/>
+1 whole Coconut (नारियल)<br/>
+3-4 fresh Green Chillies (हरी मिर्च)<br/>
+½ tsp Cumin Seeds (जीरा)<br/>
+2 tbsp roasted Chana (भुना चना)<br/>
+6-8 Cashew Nuts (काजू)<br/>
+1 inch Ginger (अदरक)<br/>
+Salt to taste (नमक स्वादानुसार)<br/>
+½ Lemon Juice (नींबू का रस)<br/>
+
+For Tempering :<br/>
+2 tbsp Coconut Oil/Refined Oil (नारियल तेल या रिफाइंड तेल)<br/>
+1 tsp Mustard Seeds (सरसों के बीज)<br/>
+¼ tsp Fenugreek Seeds (मेथी दाना)<br/>
+2 tbsp Gota Urad (गोटा उड़द)<br/>
+1 tbsp Chana Dal (चना दाल)<br/>
+2 dry Red Chillies (सूखी लाल मिर्च)<br/>
+1 sprig Curry Leaves (कड़ी पत्ता)<br/>
+
+Process :<br/>
+In a grinder jar add coconut, green chillies, cumin seeds, roasted chana, cashew nuts, ginger,<br/>
+ salt and grind it into a fine paste.<br/>
+
+Meanwhile heat oil in a pan and add mustard seeds, fenugreek seeds, gota urad, chana dal, dry<br/>
+ red chillies, curry leaves and fry until nutty brown.<br/>
+
+Now remove the coconut paste in a bowl add lemon juice and half of the tempering then mix everything properly.<br/>
+Put in a serving bowl and garnish with remaining tempering<br/>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn1">Load More</button>
+      </div>
+
+      <!-- for load more button -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(".col1").slice(0, 2).show();
+        $(".btn1").on("click", function () {
+          $(".col1:hidden").slice(0, 2).slideDown();
+          if ($(".col1:hidden").length == 0) {
+            $(".btn1").fadeOut("slow");
+          }
+        });
+      </script>
+    </div>
+
+    
+
+    <!--Utpam Paneer coooking video section -->
+    <div>
+      <div class="box">
+        <button type="button" class="btn-danger btn-lg disabled">
+          <h3 id="UtpamItems">Upma & Utpams :</h3>
+        </button>
+
+        <br />
+        <br />
+
+        <div
+          class="
+            row row-cols-md-1 row row-cols-1 row row-cols-sm-1 row-cols-lg-2
+          "
+        >
+          <div class="col col4 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              
+                
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/b_euxDBjwAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Upma Recipe | By Poonam's Kitchen
+                </h5>
+
+                <p class="card-text overflow">
+              
+
+                  Ingredients for Roasting Sooji -<br/>
+                  1 tblsp Desi Ghee<br/>
+                  1/2 cup Fat Sooji<br/>
+                  1 1/2 cups Water<br/>
+                  
+                  Ingredients for Upma -<br/>
+                  1 tblsp Oil<br/>
+                  1 1/2 tblsps Raw Peanuts<br/>
+                  5-6 Kaju (Cashew Nuts)<br/>
+                  1/2 Tsp Rai(Mustard Seeds)<br/>
+                  1/2 Tsp Jeera(Cumin Seeds)<br/>
+                  1 tsp Urad Dal(Black gram)<br/>
+                  6-7 Curry Leaves<br/>
+                  1 small Onion finely chopped (approx. 1/3 cup)<br/>
+                  1/2 tsp finely chopped Ginger<br/>
+                  1 Green Chilli finely chopped<br/>
+                  1 medium Tomato finely chopped (approx. 1/3 cup)<br/>
+                  1 Tsp Salt (or as per taste)<br/>
+                  Sooji roasted (see video)<br/>
+                  1 tblsp Coriander Leaves<br/>
+                  
+                  Enjoy restaurant Style Upma with your friends and family.<br/>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col4 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              
+                
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/CFfpuvTEg2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Rava Uttapam with Chutney Recipe | By Chef Ranveer Brar
+                </h5>
+                <p class="card-text overflow">
+                  
+Rava Uttapam with Chutney<br>
+Preparation time: 10 minutes<br>
+Cooking time: 20 minutes<br>
+Serving: 2<br>
+
+Ingredients :<br>
+1 cup Semolina, सूजी<br>
+½ cup Curd, beaten, दही<br>
+Salt to taste, नमक स्वादअनुसार<br>
+Water as needed, पानी आवश्यकताअनुसार<br>
+2 tsp Oil, तेल<br>
+½ tsp Baking soda, बेकिंग सोडा<br>
+
+For Chutney :<br>
+1 tbsp Sesame oil, तिल का तेल<br>
+½ tsp Mustard seeds, सरसों के बीज<br>
+½ tsp Urad dal, उरद दाल<br>
+1 sprig Curry leaves, करी पत्ता<br>
+2 dry Red chilli, सूखी लाल मिर्च<br>
+½ inch Ginger, slice, अदरक<br>
+1 medium slice Onion, slice, प्याज<br>
+4 medium Tomato, cube, टमाटर<br>
+1 tbsp Tamarind pulp, इमली का गूदा<br>
+1 tsp Red chilli powder, लाल मिर्च पाउडर<br>
+½ tbsp Jaggery, गुड़<br>
+
+For Topping :<br>
+1 medium size Onion, finely chopped, प्याज<br>
+Coriander leaves, finely chopped, धनिया पत्ती<br>
+1 medium size Tomato, finely chopped, टमाटर<br>
+A pinch of Red chilli powder, लाल मिर्च पाउडर<br>
+1 Green chilli, chopped, हरी मिर्च<br>
+
+Process:
+For the Batter<br>
+● In a bowl, add semolina, curd, salt to taste, 1/2 cup water and mix well. <br>
+Add little more water as needed to get a dropping consistency batter.<br>
+ Best to add water a little at a time to begin with. Rest aside for a few minutes.<br>
+● In another small bowl, add oil and baking soda and mix it well.<br>
+● Transfer this mixture into the batter and mix well.<br>
+● Heat a non-stick pan, pour a ladle full of batter in round shape.<br>
+● Sprinkle some chopped onion, coriander leaves,tomato, green chilli and red chilli powder.<br>
+● When the base is firm, flip it and cook it on the other side until it is cooked well.
+Cook on medium flame.<br>
+● Serve hot rava uttapam with chutney.<br>
+
+For Chutney :<br>
+● Heat sesame oil in a pan, add mustard seeds, urad dal, curry leaves let it splutter well.<br>
+● Add dry red chilli, ginger saute it well.<br>
+● Add slice onion saute for 2 minutes.<br>
+● Add tomato and mix well and cook for 2-4 minutes on medium flame.<br>
+● Add tamarind pulp, red chilli powder and Jagger saute everything well. Switch off the flame.<br>
+● Once the mixture is cooldown transfer it into the grinder jar and grind into smooth paste.<br>
+● Transfer it into a bowl.<br>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+   
+        <button class="btn4">Load More</button>
+      </div>
+
+      <!-- for load more button -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(".col4").slice(0, 2).show();
+        $(".btn4").on("click", function () {
+          $(".col4:hidden").slice(0, 2).slideDown();
+          if ($(".col4:hidden").length == 0) {
+            $(".btn4").fadeOut("slow");
+          }
+        });
+      </script>
+    </div>
+
+    <!--Idli coooking video section -->
+    <div>
+      <div class="box">
+        <button type="button" class="btn-danger btn-lg disabled">
+          <h3 id="IdliItems">Idli :</h3>
+        </button>
+
+        <br />
+        <br />
+
+        <div
+          class="
+            row row-cols-md-1 row row-cols-1 row row-cols-sm-1 row-cols-lg-2
+          "
+        >
+          <div class="col col5 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+             
+                
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/izMbmJkiALc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Suji Idli Recipe | Super Soft Spongy Instant No Ferment Rava Idly Recipe | South Indian Breakfast
+                </h5>
+
+                <p class="card-text overflow">
+                  Ingredients: <br>
+Suji / Rava / Semolina - 1 1/2 cup <br>
+Normal Dahi / Plain Yogurt - 1 1/2 cup  <br>
+Salt - 1 tsp <br>
+Water - to adjust consistency <br>
+Eno - 1 1/2 tsp OR Baking Soda/Meetha soda - 3/4 tsp <br>
+Oil - to grease idli tray <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col5 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/YL-5ujmIa_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Idli | इडली | Sanjeev Kapoor Khazana
+                </h5>
+                <p class="card-text overflow">
+                  Ingredients <br>
+
+                  1 cup parboiled rice (ukada chawal), soaked for 8-10 hours <br>
+                  ½ cup split skinless black gram (dhuli urad dal), soaked for 8-10 hours with ½ tsp fenugreek seeds (methi dana) <br>
+                  Salt to taste <br>
+                  Sesame oil for greasing <br>
+                  Coconut chutney to serve <br>
+                  Sambhar to serve <br>
+                   <br>
+                  Method <br>
+                  
+                  1. In a blender jar, add par boiled rice and ½ cup water and blend to a smooth paste. Set aside. <br>
+                  2. Transfer the soaked split skinless black gram and fenugreek seeds in another blender jar and add ½ cup water and blend till smooth.  <br>
+                  3. Combine the ground rice mixture and the split skinless gram mixture into a large bowl. Cover and let it ferment for 8-10 hours. <br>
+                  4. Add salt in the fermented mixture and mix well.  <br>
+                  5. Heat sufficient water in a steamer. Lightly grease each idli mould with sesame oil.  <br>
+                  6. Pour a portion of the batter into each cavity of the idli mould and tap slightly to level the top. <br>
+                  7. Steam the idlis for 10-15 minutes. Take them off the heat. <br>
+                  8. Transfer on a serving plate, serve hot with coconut chutney and sambhar. <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col5 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/w7eWdkXQpnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Instant Rava Idli recipe | suji idli | Breakfast Recipe | KabitasKitchen
+                </h5>
+                <p class="card-text overflow">
+                  INGREDIENTS: <br>
+                  Rava/sooji-1 cup <br>
+Curd- 3/4 cup <br>
+Baking soda-1/3 tsp <br>
+Mustard seeds-1 tsp <br>
+Split black gram(urad dal)- 1tbsp <br>
+Split chickpeas( chana dal)-1 tbs <br>
+Asafoetida (hing)-1/4 tsp <br>
+Cashew-10 <br>
+Curry leaves <br>
+Cooking oil-1 to 2 tbsp <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col5 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+            
+                
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/4bTqFzI0_Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Rice Idli Recipe How to make soft Idli Chawal ki Idli
+                </h5>
+                <p class="card-text overflow">
+                  Ingredients - <br>
+
+                  URAD DAL - 1 GLASS <br>
+                  CHAWAL / RICE - 3 GLASS <br>
+                  WATER - 2 1/2 GLASS TO MAKE BATTER <br>
+                  METHI DANE / FENUGREEK SEEDS - 2 TSP <br>
+                  NAMAK / SALT - 1 TSP <br>
+                  BAKING POWDER - 3 TSP OR BAKING SODA - 1 1/2 TSP
+                  OIL FOR GREASING <br>
+                  
+                  Important tips - <br>
+                  1) you can reduce the qty by half for everything if you wnat to make less qty of idli. <br>
+                  2) dal and chawal should always be in 1:3 <br>
+                  3) soak everything atleast for 6-8 hours. <br>
+                  4) grind dal as fine as possible <br>
+                  5) grind the rice coarsely <br>
+                  6) keep aside the mixture for fermentation, time may vary acc to the climate <br>
+                  7) always stire the mixture in only one direction <br>
+                  8) you can skip baking powder, but adding it will give you much spongy idli <br>
+                  9) using a cotton cloth in the steamer to steam idli, results in more spongy idli, use a clean cloth, considring all the hygiene. <br>
+                  10) to demould the idli always fir wet it with some water and then demould it, it will be much easier to do so.... <br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn5">Load More</button>
+      </div>
+
+      <!-- for load more button -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(".col5").slice(0, 2).show();
+        $(".btn5").on("click", function () {
+          $(".col5:hidden").slice(0, 2).slideDown();
+          if ($(".col5:hidden").length == 0) {
+            $(".btn5").fadeOut("slow");
+          }
+        });
+      </script>
+    </div>
+
+    <!--Vada cooking video section -->
+    <div>
+      <div class="box">
+        <button type="button" class="btn-danger btn-lg disabled">
+          <h3 id="vadaItems">Vadas :</h3>
+        </button>
+
+        <br />
+        <br />
+
+        <div
+          class="
+            row row-cols-md-1 row row-cols-1 row row-cols-sm-1 row-cols-lg-2
+          "
+        >
+          <div class="col col6 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              
+                
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/kbA6oksGIXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Dal Makhani Recipe | Restaurant Style Recipe | Chef Sanjyot Keer
+                </h5>
+
+                <p class="card-text overflow">
+                  Prep time: 30-35 minutes (excluding soaking time)<br>
+Cooking time: 1 hr – 1 hr 15 minutes<br>
+Serves: 4-5 people<br>
+
+Sambar<br>
+Sambar masala<br>
+Ingredients:<br>
+CORIANDER SEEDS | साबुत धनिया 10 TBSP<br>
+CUMIN SEEDS | जीरा 5 TSP<br>
+MUSTARD SEEDS | राई 5 TSP<br>
+BLACK PEPPERCORNS | काली मिर्च 5 TSP<br>
+METHI SEEDS | मेथी के दाने 3 TSP<br>
+CURRY LEAVES | कड़ी पत्ता 5 SPRIGS<br>
+KASHMIRI RED CHILLI | कश्मीरी लाल मिर्च 50-55 NOS. / 150 GRAMS<br>
+CHANA DAL | चना दाल 5 TBSP<br>
+URAD DAL | उरद दाल 5 TBSP <br>
+ASAFOETIDA | हींग 5 TSP<br>
+SALT | नमक 1 TSP<br>
+
+Sambar paste<br>
+Ingredients:<br>
+COCONUT | नारियल 1/3 CUP<br>
+GINGER | अदरक 1 INCH<br>
+GARLIC | लेहसुन 2-3 CLOVES <br>
+SHALLOTS | मद्रासी प्याज़ 4 NOS. <br>
+GREEN CHILLI | हरी मिर्च 1-2 NOS. <br>
+JAGGERY | गुड़ 5-6 TBSP<br>
+SAMBHAR MASALA | सांभर मसाला 6 TBSP<br>
+WATER | पानी AS REQUIRED<br>
+
+Cooking sambar<br>
+Ingredients:<br>
+TUR DAL | तूर दाल 1/3 CUP (WASHED & SOAKED)<br>
+WATER | पानी AS REQUIRED (1 INCH ABOVE THE DAL)<br>
+TURMERIC POWDER | हल्दी पाउडर A PINCH<br>
+SALT | नमक TO TASTE<br>
+OIL | तेल 2 TBSP<br>
+CUMIN SEEDS | जीरा 2 TSP<br>
+MUSTARD SEEDS | राई 2 TSP<br>
+ONION | प्याज़ 2 MEDIUM SIZED (DICED)<br>
+TOMATO | टमाटर 2 MEDIUM SIZED (DICED)<br>
+TURMERIC POWDER | हल्दी पाउडर 1 TSP<br>
+KASHMIRI RED CHILLI POWDER | कश्मीरी लाल मिर्च पाउडर 1 TSP<br>
+HOT WATER | गरम पानी 1.5 LITRE <br>
+VEGETABLES<br>
+DRUMSTICK | सेहजन 1/3 CUP<br>
+PUMPKIN | कद्दू 1/3 CUP<br>
+BOTTLE GOURD | लौकी 1/3 CUP (CUBED)<br>
+BRINJAL | बैंगन 1 NOS. (QUARTERS)<br>
+ASH GOURD | पेठा 1/3 CUP (CUBED)<br>
+SHALLOTS | मद्रासी प्याज़ 1/4 CUP (SLICED)<br>
+SAMBHAR PASTE | सांभर पेस्ट <br>
+TUR DAL | तूर दाल <br>
+SALT | नमक TO TASTE<br>
+OIL / COCONUT OIL | तेल / नारियल का तेल 2 TBSP<br>
+LADY FINGER | भिंडी 4-5 NOS. <br>
+CHANA DAL | चना दाल 1/4 TSP <br>
+MUSTARD SEEDS | राई 1/4 TSP <br>
+METHI SEEDS | मेथी के दाने 1/4 TSP<br>
+GUNDU CHILLI | गुंडू मिर्च 3-4 NOS. <br>
+CURRY LEAVES | कड़ी पत्ता  10-12 NOS. <br>
+ASAFOETIDA | हींग A PINCH <br>
+TAMARIND WATER | इमली का पानी 2-3 TBSP<br>
+FRESH CORIANDER | हरा धनिया A LARGE HANDFUL (CHOPPED)<br>
+
+Vada<br>
+Ingredients:<br>
+URAD DAL | उरद दाल 1 CUP<br>
+ICE CUBE | बर्फ 1 NOS.<br>
+WATER | पानी VERY LITTLE <br>
+SALT | नमक TO TASTE<br>
+GINGER | अदरक 1 INCH<br>
+GREEN CHILLI| हरी मिर्च 1-2 NOS.<br>
+ASAFOETIDA | हींग A SMALL PINCH <br>
+CURRY LEAVES | कड़ी पत्ता 3-4 NOS. (CHOPPED & OPTIONAL)<br>
+COCONUT | नारियल 1 TSP (CHOPPED & OPTIONAL)<br>
+
+Coconut chutney<br>
+Ingredients:<br>
+COCONUT | नारियल 1 CUP<br>
+GREEN CHILLI | हरी मिर्च 2 NOS. <br>
+FRESH CORIANDER | हरा धनिया FEW SPRIGS <br>
+CHANA DAL | चना दाल 1/2 CUP (ROASTED)<br>
+BLACK PEPPER POWDER | काली मिर्च पाउडर 1/4 TSP<br>
+CUMIN POWDER | जीरा पाउडर 1/2 TSP<br>
+SALT | नमक TO TASTE<br>
+ICE CUBE | बर्फ 2- 3NOS. <br>
+WATER | पानी AS REQUIRED <br>
+OIL / COCONUT OIL | तेल / नारियल का तेल 1-2 TBSP<br>
+CHANA DAL | चना दाल 1/2 TSP<br>
+URAD DAL | उरद दाल 1/2 TSP<br>
+MUSTARD SEEDS | राई 1 TSP<br>
+RED CHILLI | लाल मिर्च 1-2 NOS.<br>
+CURRY LEAVES | कड़ी पत्ता 10-12 NOS.<br>
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col col6 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              
+                
+                <iframe class="mx-auto video"
+                width="100%"
+                height="475" src="https://www.youtube.com/embed/1Um60vWQL1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Dal Vada Recipe |  by Authentic Kerala                  
+                </h5>
+                <p class="card-text overflow">
+                  Ingredients for Parippu vada (Chana Dal Vada)<br>
+Chana Dal 1.5 Cups (300 g)<br>
+Ginger 20 g<br>
+Green Chilli 3 to 4 Nos<br>
+Shallots 80 g or Onion 50 g<br>
+Dry Red Chilli 4 Nos<br>
+Asafoetida (Hing) Quarter teaspoon<br>
+Curry Leaves 3 Nos<br>
+Salt to Taste<br>
+Cooking Oil<br>
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn6">Load More</button>
+      </div>
+
+      <!-- for load more button -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(".col6").slice(0, 2).show();
+        $(".btn6").on("click", function () {
+          $(".col6:hidden").slice(0, 2).slideDown();
+          if ($(".col6:hidden").length == 0) {
+            $(".btn6").fadeOut("slow");
+          }
+        });
+      </script>
+    </div>
+
+    
+    
+
+    
+  </body>
+</html>

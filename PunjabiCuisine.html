@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="BengaliCuisine.css" />
+
+    <title>Punjabi Cuisine-Recipe World</title>
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- navigation bar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
+      style="background-color: #e3f2fd"
+    >
+    <h4 class="h4  text-info font-weight-bold ">Recipe<span class="  h4  text-danger font-weight-bolder " style="padding-right: 5px;">World</span></h4>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a
+              class="nav-link btn-outline-warning"
+              style="padding-left: 10px"
+              href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+
+          <li class="nav-item dropdown btn-outline-warning">
+            <a
+              class="nav-link dropdown-toggle"
+              style="padding-left: 10px"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Punjabi Cuisine
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#PaneerItems">Paneer</a>
+              <a class="dropdown-item" href="#ChickenItems">Chicken</a>
+              <a class="dropdown-item" href="#MuttonItems">Mutton</a>
+              <a class="dropdown-item" href="#vegiesItems">Vegies</a>
+              <a class="dropdown-item" href="#DessertItems">Dessert</a>
+              
+
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item active">
+            <a
+              class="nav-link btn-outline-warning"
+              style="padding-left: 10px"
+              href="SouthIndianCuisine.html"
+              >South-Indian Cuisine <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a
+              class="nav-link btn-outline-warning"
+              style="padding-left: 10px"
+              href="ChineseCuisine.html"
+              >Chinese Cuisine <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a
+              class="nav-link btn-outline-warning"
+              style="padding-left: 10px"
+              href="MexicanCuisine.html"
+              >Mexican Cuisine <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a
+              class="nav-link btn-outline-warning"
+              style="padding-left: 10px"
+              href="https://www.bigbasket.com/"
+              target="_blank"
+              >Shop Now <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <!-- how to link section of different page -->
+          <a
+            class="nav-link navpad btn-outline-info"
+            style="padding-left: 10px"
+            href="index.html#aboutus"
+            >Contact Me <span class="sr-only">(current)</span></a
+          >
+        </form>
+      </div>
+    </nav>
+    <!-- description about food -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="h1 font-weight-bolder">Punjabi Cuisine</h1>
+        <p class="lead">
+          You’ve probably heard of the word ‘Punjabi’ many times, but maybe
+          never really been sure what that means in relation to Indian food
+          and how it differs from other regions in India. So, I thought I’d 
+          help break down this confusion…
+          Punjabi cuisine is a culinary style originating in the Punjab, a 
+          region in the northern part of the Indian subcontinent, which is 
+          now divided in an Indian part to the east and a Pakistani part to
+          the west. This cuisine has a rich tradition of many distinct and 
+          local ways of cooking. One is a special form of tandoori cooking 
+          that is now famous in other parts of Pakistan and India, England,
+          Canada, America, and in many other parts of the world
+        </p>
+      </div>
+    </div>
+    <!-- pictured of food -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide pic"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/punjabi1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/punjabi2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/bc3.jpeg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <br />
+    <br />
+    <!-- reciepe section     -->
+    <nav class="navbar navbar navbar-light" style="background-color: #e3f2fd">
+      <div class="mx-auto">
+        <h2 class="h2 font-weight-bolder">"All The Recipes"</h2>
+      </div>
+    </nav>
+
+    <!--Fish coooking video section -->
+    <div>
+      <div class="box">
+        <button type="button" class="btn-danger btn-lg disabled">
+          <h3 id="PaneerItems">Paneer :</h3>
+        </button>
+
+        <br />
+        <br />
+
+        <div
+          class="
+            row row-cols-md-1 row row-cols-1 row row-cols-sm-1 row-cols-lg-2
+          "
+        >
+          <div class="col col1 mb-4 ">
+            <div class="card cardbox" style="height: auto; width: auto">
+              <iframe
+                class="mx-auto video "
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/inVClSNYBQ4&t=5s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  SHAHI PANEER RECIPE || BY CHEF RANVEER BRAR
+                </h5>
+
+                <p class="card-text overflow">
+                  Preparation Time: 15 minutes<br/>
+                  Cooking Time: 20 minutes<br/>
+                  Serves: 2<br/>
+                  Ingredients for Shahi Paneer: <br />
+
+                  For Onion Tomato Puree
+                  - 1 tbsp ghee<br/>
+                  - 1 tbsp oil<br/>
+                  - 1 tsp cumin seeds<br/>
+                  - 1 inch cinnamon<br/>
+                  - 2 cloves<br/>
+                  - 2 green cardamom<br/>
+                  - 1 black cardamom<br/>
+                  - 1 bay leaf<br/>
+                  - 2 green chili<br/>
+                  - 1 tbsp ginger garlic paste<br/>
+                  - 2 medium onion, cut into quarter<br/>
+                  - 10-12 cashew nuts, soaked<br/>
+                  - 4 medium tomato, cut into quarter<br/>
+                  - Salt to taste<br/>
+                  - ¼ tsp turmeric<br/>
+                  For Final Assembly: <br/>
+                  - 2 tbsp butter <br/>
+                  - 1 tbsp kashmiri red chili powder <br/>
+                  - 1 tsp coriander powder <br/>
+                  - Prepared Puree <br/>
+                  - 50 gms paneer, cubed <br/>
+                  - ¼ cup cream <br/>
+                  - 1 tsp kasoori methi, crushed <br/>
+
+                  Process : <br/>
+                  ● Heat ghee in kadhai and add all the spices, followed by green chillies, ginger and garlic. saute for
+                  a minute.<br/>
+                  ● Now add onion, cashew nuts and saute. Do not brown them and keep translucence.<br/>
+                  ● Add tomatoes, salt and turmeric; mix and saute for a minute. Now add ½ cup water; cover and
+                    cook on low flame for 12-15 minutes. Stir it once again and allow it to cool.<br/>
+                  ● Now transfer this mixture into blender and blend until fine texture.<br/>
+                  ● Now pass this curry from the strainer to get that smooth and silky texture.<br/>
+                  ● Now heat butter in a non stick pan and add kashmiri red chilli powder and coriander powder.
+                    Saute for a minute and add prepared curry. Stir gently for a while and add paneer cubes. Add
+                    cream and sprinkle kasoori methi powder all over. Mix well and cook for another 2 minutes on
+                    low flame.<br/>
+                  ● Before serving garnish with cream and sprinkle cardamom powder.<br/>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col1 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/nRPmoioNisI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Kadhai Paneer | Punjabi Style | By Chef Ranveer Brar
+                </h5>
+                <p class="card-text overflow">
+                  Preparation time: 20 min<br/>
+                  Cooking time: 40 min<br/>
+                  Serves: 4<br/>
+
+                  Ingredients:<br/>
+                  - For kadai masala<br/>
+                  - 1 ½ tbsp Coriander seeds<br/>
+                  - 2 tsp Cumin seeds<br/>
+                  - 4-5 Kashmiri Red Chilli<br/>
+                  - 1 ½ tbsp Peppercorns<br/>
+                  - 1 tbsp salt<br/>
+
+                  For Kadai Paneer<br/>
+                  - 1 tbsp Oil<br/>
+                  - 1 tsp Cumin seeds<br/>
+                  - 1 inch Ginger, chopped<br/>
+                  - 2 large Onion, chopped<br/>
+                  - 1 tsp Ginger garlic paste<br/>
+                  - ½ tsp Turmeric Powder<br/>
+                  - 1 tsp Degi chilli powder<br/>
+                  - 1 tsp Coriander powder<br/>
+                  - 2 large Tomatoes, puree<br/>
+                  - Salt to taste<br/>
+                  - 1 tsp Ghee<br/>
+                  - 1 tsp Oil<br/>
+                  - 1 Medium onion, slice<br/>
+                  - ½ Capsicum, slice<br/>
+                  - 1 Tomato, slice<br/>
+                  - Salt to taste<br/>
+                  - 250 Gram paneer, slice<br/>
+                  - 1 tsp Kashmiri chilli powder<br/>
+                  - 1 tbsp kadai masala<br/>
+                  - 1 tbsp Cream/ optional<br/>
+                  - Coriander Sprig<br/>
+
+                  Method:-<br/>
+                  For Kadai masala<br/>
+                  ● Take a pan.<br/>
+                  ● Add coriander seeds, cumin seeds, Kashmiri red chilli, peppercorn and salt<br/>
+                  ● Dry roast it till you get a nutty aroma.<br/>
+                  ● Let it cool and grind it into fine powder.<br/>
+
+                  For Kadai Paneer<br/>
+                  ● Take a pan, add oil/ghee.<br/>
+                  ● Now add cumin, ginger and saute well.<br/>
+                  ● Add onion, ginger garlic paste and saute till raw smell goes off.<br/>
+                  ● Add turmeric powder, degi chilli powder and coriander powder and saute well.<br/>
+                  ● Add tomato puree, salt to taste and water and let it cook.<br/>
+                  ● Take a pan, add oil/ ghee.<br/>
+                  ● Add slice onion, slice capcium, slice tomato and salt and saute for a minute.<br/>
+                  ● Add paneer slice to it and saute well.<br/>
+                  ● Add kashmiri chilli powder and prepared kadai masala to it and saute well.<br/>
+                  ● Add the prepared gravy to the pan and saute well.<br/>
+                  ● Add cream and mix well.<br/>
+                  ● Garnish it with coriander sprig.<br/>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col1 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/Nru8aadeN0I"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  PANEER TIKKA MASALA RECIPE || BY COOKING SHOOKING
+                </h5>
+                <p class="card-text overflow">
+                  INGREDIENTS:
+                  <br />
+                  -600 g katla machh (Catla or Rohu fish) <br />
+                  -8 g salt(for marination) <br />
+                  -3 g turmeric (for marination) <br />
+                  -80 g mustard oil <br />
+                  -10 g ghee <br />
+                  -4 pcs dried red chillies <br />
+                  -4 pcs bay leaves <br />
+                  -4 pcs cardamom<br />
+                  -4 pcs cloves <br />
+                  -2 pcs cinnamon <br />
+                  -1 tsp cumin
+                  seeds <br />
+                  -150 g onion (paste) <br />
+                  -100 g onions (sliced)
+                  <br />-20 g ginger <br />
+                  -30 g tomato <br />
+                  -50 g yoghurt <br />
+                  -6 g turmeric <br />
+                  -2 g red chilli powder <br />
+                  -6 g kashmiri red chilli powder <br />
+                  -4 g cumin powder <br />
+                  -30 g raisins <br />
+                  -27 g salt <br />
+                  -35 g sugar <br />
+                  -500 g hot water <br />
+                  -½ tsp Bengali gorom moshla‍ <br />
+                  -6 pcs green chillies <br />
+                  <br />
+                  METHOD:
+                  <br />
+                  ● Wash and thoroughly dry the fish. There should not be
+                  any excess moisture on the surface of the fish.
+                  <br />
+                  ● Sprinkle 8 grams of salt and 3 grams of turmeric powder
+                  and toss to coat. Set this aside to marinate (in the
+                  refrigerator if it is a hot day). <br />
+                  ● Slice 100 grams of
+                  cleaned onions along the length. These will be used to make
+                  birista (fried onion). <br />
+                  ● Roughly cube 150 grams of
+                  cleaned onion and put it in the jar of a grinder. <br />
+                  ● Peel fresh ginger, chop roughly and add it to the same jar.<br />
+                  ● Grind the onion and ginger until smooth. Don't add any
+                  extra water during grinding. <br />
+                  ● Cube the tomatoes into
+                  small chunks. <br />
+                  ● Slit green chillies along the length.<br />
+                  ● Weigh the yoghurt, then beat with a fork until smooth.<br />
+                  ● Weigh out the dry spice powders in a bowl
+                  together—turmeric, cumin, red chilli, and Kashmiri red chilli.<br />
+                  ● Heat a kadai or a wok until very hot (250ºC). Pour all
+                  of the mustard oil (80 grams) and wait for it to start
+                  smoking. Once it smokes, lower the heat and wait for the smoke
+                  to subside and the oil to cool down a little. <br />
+                  ● Next, add the sliced onions from Step 3 and fry patiently until
+                  barely light brown. This should take about 6 minutes for this
+                  quantity of onions. Immediately strain and set aside.
+                  Remember, the onion will keep darkening due to residual heat
+                  even after you take it out of the oil. If it darkens too much
+                  it will turn bitter. <br />
+                  ● In the same oil fry the marinated
+                  fish in small batches. Fry the belly pieces (peti) separately
+                  from the back pieces (daga or gada). For a kalia, the fish
+                  should be nicely browned outside. Set the fried fish aside. We
+                  will cook the kalia in the same oil so that the sauce has the
+                  flavour of the fish. <br />
+                  ● Add ghee to the oil and wait for
+                  it to melt. <br />
+                  ● Lower the heat. Add dried red chillies, bay
+                  leaves, and whole garam moshla, i,e, cardamom, cloves and
+                  cinnamon, and finally whole cumin seeds. <br />
+                  ● Add the onionand ginger paste. Braise this until it 
+                  darkens in colour and the moisture dries up. <br />
+                  ● Add the dry spice powders, stir and sprinkle a couple
+                  of tablespoons of hot water to preventthem from sticking to
+                  the pan and burning. Braise until theraw smell of the spices
+                  goes away (about 6 minutes).<br />
+                  ● Add the salt and the sugar. <br />
+                  ● Add the diced tomatoes and cook covered until softened. At 
+                  any stage during the cooking add splases of hot water to prevent 
+                  the spices from burning. <br />
+                  ● Turn up the heat, and add the beaten yoghurt stirring vigorously 
+                  so that the yoghurt doesn't split.<br />
+                  ● When the oil (rogan) floats to the top, add the raisins
+                  and stir. <br />
+                  ● Once everything is well cooked, add 500 grams
+                  of boiling hot water. <br />
+                  ● When the sauce comes up to the
+                  boil, gently introduce the fried fish into the sauce. Also add
+                  the slit green chillies and the fried onions from Step 12.
+                  <br />
+                  ● Simmer the kalia until the consistency is like a sauce.
+                  A kalia should not be too thick. Plus, keep in mind that the
+                  fish will soak up a lot of the sauce and the gravy will
+                  thicken by the time you serve it. <br />
+                  ● Turn off the stove,sprinkle Bengali garam moshla and cover with
+                  a tight lid. Let this rest for at least half an hour before serving
+                  with plain boiled rice, or a polao.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col1 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/oYZ--rdHL6I&t=44s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  PANEER BUTTER MASALA RECIPE | PUNJABI STYLE | BY HOME COOKING SHOW
+                </h5>
+                <p class="card-text overflow">
+                 
+                  Prep time: 10 mins<br/>
+                  Cook time: 45 mins <br/>
+                  Number of Servings: 4-5 persons <br/>
+
+                  Ingredients:<br/>
+
+                  - Paneer - 300 Gms <br/>
+                  - Oil - 1 Tbsp <br/>
+                  - Onion - 2 Nos (Chopped)<br/>
+                  - Red Chilies - 10 Nos. <br/>
+                  - Tomato - 3 Nos Chopped<br/>
+                  - Salt - 1 Tsp <br/>
+                  - Cashew Nuts - 1/4 Cup <br/>
+                  - Ghee - 3 Tsp <br/>
+                  - Kashmiri Chili Powder - 2 Tsp <br/>
+                  - Garam Masala - 1 Tsp <br/>
+                  - Kasuri Methi <br/>
+                  - Coriander Leaves<br/>
+                  - Unsweetened Khoya - 50 Gms <br/>
+                  - Milk - 3 Tbsp <br/>
+                  - Fresh Cream - 2 Tbsp <br/>
+                  - Sugar - 1 Tsp <br/>
+                  - Water - 1/4 Cup<br/>
+                  - Salt - 1 Tsp <br/>
+
+                  Method: 
+                  ● Heat some oil in a kadai, add onions, red chilies, tomatoes, and<br/>
+                   cashews and saute till they are completely cooked. <br/>
+                  ● Add salt and cook till tomatoes are mushy. Turn off the stove.<br/>
+                  ● Cool the ingredients and grind them to a smooth paste. <br/>
+                  ● Heat a kadai with ghee, add red chili powder.<br/>
+                  ● Pour in the ground paste and add a little water which was added to<br/>
+                   the mixer jar to remove the paste stuck to it.<br/>
+                  ● Now add garam masala, kasuri methi and chopped coriander leaves.<br/>
+                  ● Close the kadai and let it simmer for about 10 minutes on low flame.<br/>
+                  ● To a mixer jar, add khoya and milk. Grind them into a fine paste to give <br/>
+                  the curry a creamier texture.<br/>
+                  ● Add fresh cream, ground khoya mixture and sugar to the gravy and give<br/>
+                   it a quick mix.<br/>
+                  ● Add water, season the gravy with salt and mix it well.<br/>
+                  ● Now add paneer cubes to the gravy, close the kadai and cook for 10 <br/>
+                  minutes on low-flame. <br/>
+                  ● Turn off the stove and serve it hot with a dollop of butter.<br/>
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn1">Load More</button>
+      </div>
+
+      <!-- for load more button -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(".col1").slice(0, 2).show();
+        $(".btn1").on("click", function () {
+          $(".col1:hidden").slice(0, 2).slideDown();
+          if ($(".col1:hidden").length == 0) {
+            $(".btn1").fadeOut("slow");
+          }
+        });
+      </script>
+    </div>
+
+    <!--Chicken coooking video section -->
+    <div>
+      <div class="box">
+        <button type="button" class="btn-danger btn-lg disabled">
+          <h3 id="ChickenItems">Chicken :</h3>
+        </button>
+
+        <br />
+        <br />
+
+        <div
+          class="
+            row row-cols-md-1 row row-cols-1 row row-cols-sm-1 row-cols-lg-2
+          "
+        >
+          <div class="col col2 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/b7yuoRk227Y"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Butter Chicken | By Chef Ranveer Brar
+                </h5>
+
+                <p class="card-text overflow">
+                  
+                 
+                
+                  Preparation time: 10 minutes<br/>
+                  Cooking time: 30 minutes<br/>
+                  Serves: 2 <br/>
+
+                  Ingredients :<br/>
+                  For the Gravy:- <br/>
+                  - 4 large Tomatoes, cut into half<br/>
+                  - 2-3 large Onions, sliced<br/>
+                  - 3-4 Garlic pods<br/>
+                  - 1 inch-Ginger, sliced <br/>
+                  - 1 tbsp Degi Mirch <br/>
+                  - 5-6 Cloves<br/>
+                  - 1 inch-Cinnamon Stick<br/>
+                  - 3 Bay Leaves<br/>
+                  - 5-6 Black Peppercorns <br/>
+                  - 2 Green Cardamoms <br/>
+                  - 2 tbsp Butter <br/>
+                  - Salt to taste<br/>
+
+                  For Butter Chicken:- <br/>
+                  - 2 tbsp Butter<br/>
+                  - 1 tbsp Red Chilli powder<br/>
+                  - 1 tsp Coriander powder<br/>
+                  - Prepared Gravy <br/>
+                  - 3 tbsp Fresh Cream <br/>
+                  - 1 tsp Honey <br/>
+                  - Cooked Tandoori Chicken, shredded<br/>
+                  - 1-2 drops Kewra Water<br/>
+                  - 1 tbsp Dried Fenugreek Leaves, toasted & crushed<br/>
+                  - Burnt Charcoal <br/>
+                  - 1 tsp Ghee<br/>
+                  - Fresh Cream <br/>
+                  - Coriander Sprig<br/>
+
+                  Process :<br/>
+                  For the Base Gravy<br/> 
+                  • In a heavy bottom pan, add ½ cup water.<br/>
+                  • Add tomatoes, onions, garlic, ginger, degi mirch and all the whole spices. Mix well.<br/>
+                  • Add 1½ tsp butter, salt and mix well. Cover the cook for 15 minutes.<br/>
+                  • Once the tomatoes are soft, with a hand blender, blend the gravy till smooth.<br/> 
+                  • Strain the gravy through a strainer. <br/>
+
+                  For Butter Chicken <br/>
+                  • In a pan, add butter and allow it to melt. Add red chilli powder and coriander powder,<br/>
+                   cook for a minute. <br/>
+                  • Pour prepared gravy, mix well and cook for 2-3 minutes.<br/> 
+                  • Add fresh cream, honey, shredded tandoori chicken, mix well and cook for another 3-4<br/> 
+                    minutes. <br/>
+                  • Add kewra water, dried fenugreek leaves and cook for 2 minutes. <br/>
+                  • In a small metal bowl, add burnt charcoal and place it in the middle of the gravy. <br/>
+                  • Pour ghee over charcoal and immediately cover with a lid, keep it 2-3 minutes for the<br/>
+                    smoky flavour. Once done, remove the charcoal bowl. <br/>
+                  • Transfer the butter chicken in a serving bowl. Garnish with fresh cream and coriander<br/>
+                    sprig. Serve hot with roti or rice.<br/>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col2 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/pJ0ybGgTSFs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Patiala chicken | Murgh Makhani Recipe
+                </h5>
+                <p class="card-text overflow">
+                  <br />
+                  Ingredients:<br />
+                  - 750 gms Chicken<br />
+                  - 1/2 cup Curd<br />
+                  - 1/2 tsp Garlic Paste<br />
+                  - 1/2 tsp Ginger Paste<br />
+                  - 1/2 tsp Turmeric Powder<br />
+                  - 1/2 tsp Red Chilli Powder<br />
+                  - 1/4 tsp Black Pepper Powder<br />
+                  - Salt (as per the taste)<br />
+
+                  For Gravy :<br />
+                  - 3 tbsp Oil<br />
+                  - 1/2 Inch Cinnamon Stick<br />
+                  - 2 Green Cardamoms<br />
+                  - 2 Cloves<br />
+                  - 1/2 tsp Cumin Seeds<br />
+                  - 1 tsp Ginger (chopped)<br />
+                  - 1 tsp Garlic (chopped)<br />
+                  - 4 Onions (chopped)<br />
+                  - 1/2 tsp Turmeric Powder<br />
+                  - 1/2 tsp Red Chilli Powder<br />
+                  - 1 tbsp Coriander Seed Powder<br />
+                  - 2 Tomatoes (chopped)<br />
+                  - 1/4 cup Water<br />
+
+                  - 2 Green Chillies (chopped)<br />
+
+                  For Chicken Curry Gravy<br />
+                  - 1 tbsp Oil<br />
+                  - 1/2 tsp Cumin Seeds<br />
+                  - 1 tsp Ginger (chopped)<br />
+                  - 1 tsp Garlic (chopped)<br />
+                  - 1 cup Fenugreek Leaves (chopped & salted)<br />
+                  - 1 Onion (diced)<br />
+                  - 1 Capsicum (diced)<br />
+                  - 1/4 tsp Turmeric Powder<br />
+                  - 1/2 tsp Red Chilli Powder<br />
+                  - 1/2 tsp Cumin Seed Powder<br />
+                  - 1/2 tsp Coriander Seed Powder<br />
+                  - 1/2 cup Cashewnut Paste<br />
+                  - Salt<br />
+                  - 1/2 cup Water<br />
+
+                  - 1/2 tsp Garam masala Powder<br />
+                  - 1 Green Chilli (chopped)<br />
+                  - 1/2 inch Ginger (julienne)<br />
+                  - 1 tsp Dried Fenugreek Leaves<br />
+                  - 1/4 cup Fresh Cream<br />
+
+                  Method: <br />
+                  • Let's start with having Chicken in the bowl to which add Curd,<br /> 
+                    Garlic Paste, Ginger Paste, Turmeric Powder, Red Chilli Powder,<br />
+                    Black Pepper Powder, Salt (as per the taste).<br />
+                  • Next, mix it properly together and keep it aside.<br />
+                  • Now let's make the Gravy for which heat up the Oil in the Pan then<br />
+                    add Cinnamon Stick, Green Cardamoms, Cloves, Cumin Seeds, Ginger (chopped),<br />
+                  Garlic(chopped) fry them till the Ginger & garlic smell goes away.<br />
+                  • Now add Onions (chopped) and saute this till this is nice and brown then<br />
+                    add Turmeric Powder, Red Chilli Powder, Coriander Seed Powder saute <br />
+                    this for few seconds.<br />
+                  • Now add Tomatoes (chopped) saute it again till the Tomatoes are soft.<br />
+                  • Next, add Water then take the half of the Masala and keep it aside. <br />
+                  • To the remaining Masala in the Pan add the Marinated Chicken with Green<br />
+                    Chillies (chopped) now saute this chicken for 5 minutes then let it cook<br />
+                    with lid close on low flame till it is done.<br />
+                  • Next, let's make another gravy for which add heat up the Oil then add Cumin<br />
+                    Seeds, Ginger (chopped), Garlic (chopped), Fenugreek Leaves (chopped & salted).<br />
+                  • Now saute this for a minute then add Onion (diced), Capsicum (diced) again saute<br />
+                    it for a minute and add Turmeric Powder, Red Chilli Powder, Cumin Seed Powder, <br />
+                    Coriander Seed Powder.<br />
+                  • Next, mix it properly and add remaining Masala we have removed earlier then add<br />
+                    Cashew-nut Paste saute this for 3-4 minutes on low flame. Now add Salt, Water.<br />
+                  • Now add the gravy to the Chicken mix it properly to which add Garam masala Powder,<br />
+                    Green Chilli (chopped), Ginger (julienne), Dried Fenugreek Leaves mix it again and<br />
+                    cover it for 2 minutes. <br />
+                  • Now, add Fresh Cream mix it and your Chicken Patiala is ready to serve.<br />
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          
+        <button class="btn2">Load More</button>
+      </div>
+
+      <!-- for load more button -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(".col2").slice(0, 2).show();
+        $(".btn2").on("click", function () {
+          $(".col2:hidden").slice(0, 2).slideDown();
+          if ($(".col2:hidden").length == 0) {
+            $(".btn2").fadeOut("slow");
+          }
+        });
+      </script>
+    </div>
+
+    <!--Mutton coooking video section -->
+    <div>
+      <div class="box">
+        <button type="button" class="btn-danger btn-lg disabled">
+          <h3 id="MuttonItems">Mutton :</h3>
+        </button>
+
+        <br />
+        <br />
+
+        <div
+          class="
+            row row-cols-md-1 row row-cols-1 row row-cols-sm-1 row-cols-lg-2
+          "
+        >
+          <div class="col col3 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/GSn9cZFl33Q"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Mutton Curry Recipe | Kasha Mangsho | By Chef Ranveer Brar
+                </h5>
+
+                <p class="card-text overflow">
+                  
+                  Preparation time 10 minutes <br />
+                  Cooking time 30-35 minutes <br />
+                  Serve 2-4<br />
+
+                  Ingredients :<br />
+                  - 2-3 tbsp Oil, तेल <br />
+                  - 2 tbsp Ghee, घी<br />
+                  - 2 Black cardamom, बड़ी इलायची<br />
+                  - 2-4 Cloves, लॉन्ग<br />
+                  - 8-10 Black peppercorns, काली मिर्च के दाने <br />
+                  - Prepared Ginger Garlic paste, अदरक लहसुन का पेस्ट<br />
+- 5 medium size Onion, chopped, प्याज<br />
+- Salt to taste, नमक स्वादअनुसार<br />
+- 1 ½ tbsp Coriander powder, धनिया पाउडर<br />
+- Marinated Mutton, मैरिनेटेड मटन<br />
+- 2-3 cups Water, पानी<br />
+- Prepared Onion Tomato Masala, तैयार किया हुआ प्याज टमाटर मसाला<br />
+
+For Ginger Garlic Paste :- <br />
+- ½ inch Ginger, peeled, slice, अदरक<br />
+- 5-6 Garlic cloves, लहसुन<br />
+- 2 Green chillies, हरी मिर्च<br />
+
+For Mutton Marination:- <br />
+- 800 gms Mutton, with bones, मटन<br />
+- 1 ½ tsp Degi red chilli powder, देगी लाल मिर्च पाउडर <br />
+- 1 tsp Turmeric powder, हल्दी पाउडर<br />
+- Salt to taste, नमक स्वादअनुसार<br />
+- ½ cup Curd, beaten, दही<br />
+
+For Onion Tomato Masala :- <br />
+- 1 tbsp Oil, तेल <br />
+- ½ tsp Cumin seeds, जीरा  <br />
+- 1 tsp Coriander seeds, धनिया के बीज <br />
+- 2 Bay leaf, तेजपत्ता<br />
+- 1 large Onion, chopped, प्याज<br />
+- 2 Green chillies, chopped, हरी मिर्च <br />
+- ½ tbsp Coriander powder, धनिया पाउडर<br />
+- 1 tsp Degi red chilli powder, देगी लाल मिर्च पाउडर <br />
+- 2 small Tomatoes, chopped, टमाटर<br />
+- Salt to taste, नमक स्वादअनुसार<br />
+
+- Little water, पानी<br />
+- 1 tbsp tender Coriander stems, finely chopped, धनिया के डंठल  <br />
+
+For Garnish :- <br />
+- 1 tsp Dry fenugreek leaves, crushed, कसूरी मेथी<br />
+- ½ inch Ginger, julienned, अदरक<br />
+- Coriander sprig, धनिया पत्ता<br />
+
+
+Process : 
+● In a cooker, add oil, ghee once it's hot, add black cardamom, <br />
+cloves, black peppercorns and let it splutter well.<br />
+● Add ginger garlic paste, onion and saute it well for 5 minutes. <br />
+● Add salt to taste and saute it until light brown in color. Add coriander powder and mix well. <br />
+● Add marinated mutton and mix it well. Add water and mix well. <br />
+● Cover it with a lid and cook on medium flame for 5-6 whistles. 
+● Let it cool at room temperature until pressure inside the cooker goes down naturally.<br /> 
+● Open the lid, add prepared onion tomato masala and mix it well. <br />
+● Just cover it with the lid without a whistle and cook on medium flame for 5-7 minutes . <br />
+● Transfer it into a serving bowl, garnish it with dry fenugreek leaves, ginger, coriander sprig. <br />
+● Serve hot with roti or steam rice. <br />
+
+For Ginger Garlic Paste :<br />
+● In a mortar pestle, add ginger, garlic, green chillies and grind it <br />
+into a rough paste and keepaside for further use. <br />
+
+For Mutton Marination :<br />
+● In a large bowl, add mutton, degi red chilli powder, turmeric powder, salt to taste, curd and marinated well. Keep it for 10-15 minutes. 
+
+For Onion Tomato Masala :<br />
+● In a shallow pan, add oil, once it's hot, add cumin seeds, coriander seeds, bay leaf and<br />
+ let it splutter well. <br />
+● Add onion, green chillies and saute it well, add coriander powder, degi red chilli powder mix it well. <br />
+● Add tomatoes, salt to taste and saute well. add little water and let it cook on medium flame for 2-4 minutes.<br /> 
+● Add tender coriander stems and mix it well.<br />
+                 
+                  
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          
+             
+          
+          <div class="col col3 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/0XntC0XtwDI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Shahi Mutton Korma Recipe | Old Delhi Style Mutton Korma
+                  Recipe | Khashir Mangsher Korma
+                </h5>
+                <p class="card-text overflow">
+                  Ingredients:
+                  <br />
+                  Mutton – 1 Kg
+                  <br />
+                  -Strained Curd/Yogurt – 1 Cup <br />
+                  -Ginger-Garlic-Green Chili Paste – 2 Tbsp <br />
+                  -Coriander Powder – 3 Tbsp <br />
+                  -Red Chili Powder – 2 Tsp <br />
+                  -Kashmiri Red Chili Powder – 1 Tsp <br />
+                  -Turmeric Powder – ½ Tsp <br />
+                  -Cumin Powder – 1 Tsp <br />
+                  -Fried Onion (Beresta) – 1 Big <br />
+                  -Whole Black Pepper Corns (Gota Golmorich) – 1 Tsp <br />
+                  -Cloves – 1 Tsp <br />
+                  -Green Cardamom – 1 Tsp <br />
+                  -Black Cardamom – 2 <br />
+                  -Cinnamon Stick – 2 <br />
+                  -Mace (Jayitri) – 1 Small Clove <br />
+                  -Nutmeg (Jaiphal) – ¼ Tsp <br />
+                  -Salt, Sugar, Water, Ghee as Required
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn3">Load More</button>
+      </div>
+
+      <!-- for load more button -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(".col3").slice(0, 2).show();
+        $(".btn3").on("click", function () {
+          $(".col3:hidden").slice(0, 2).slideDown();
+          if ($(".col3:hidden").length == 0) {
+            $(".btn3").fadeOut("slow");
+          }
+        });
+      </script>
+    </div>
+
+    <!--Egg coooking video section -->
+    <div>
+      <div class="box">
+        <button type="button" class="btn-danger btn-lg disabled">
+          <h3 id="EggItems">Vegies :</h3>
+        </button>
+
+        <br />
+        <br />
+
+        <div
+          class="
+            row row-cols-md-1 row row-cols-1 row row-cols-sm-1 row-cols-lg-2
+          "
+        >
+          <div class="col col4 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/FTIjbV6yczo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Dal Makhani | By Swaad anusaar
+                </h5>
+
+                <p class="card-text overflow">
+                  Cooking Dal :<br />
+                  - 1 cup of black gram / काली उरद दाल <br />
+                  - Red Kidney Beans / राजमा <br />
+                  - Salt<br />
+                  - Water<br />
+
+                  Tadka : <br />
+                  - 2 tbsp ghee<br />
+                  - 2 chopped onions<br />
+                  - 2 tbsp ginger garlic paste<br />
+                  - 3-4 tomato puree<br />
+                  - 1/2 tsp salt<br />
+                  - 1/2 tsp red chilli powder<br />
+                  - coriander leaves<br />
+                  - water<br />
+                  - 2 tsp coriander powder<br />
+                  - 1 tsp cumin powder<br />
+                  - 1 tsp garam masala<br />
+
+                  - Butter<br />
+                  - 1/2 tsp red chilli powder<br />
+                  - Fresh Cream<br />
+                  
+                  Method:<br />
+                  - In a pressure cooker add black gram, red kidney beans, salt, and water & keep it for 2-3 whistles.<br />
+                  - In a pan add ghee and onions and cook it until the onions turn brown.<br />
+                  - Add ginger-garlic paste, tomato puree, salt, red chili powder, and coriander leaves.<br />
+                  - Check if the dal is cooked and add it to the tadka and cook it for 7-8 minutes.<br />
+                  - In other pan add butter, red chili powder and pour it over dal and add coriander and fresh cream.<br />
+                    Dal Makhani is ready to be served!<br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col4 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/DsZr3U4Clf0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Rajma Recipe | By Sonia Barton
+                </h5>
+                <p class="card-text overflow">
+                  PUNJABI RAJMA<br />
+                  Preparation Time: 20 minutes + soaking time<br />
+                  Cooking Time: 25-30 minutes<br />
+                  Serves: 4<br />
+
+                  Ingredients:-<br />
+                  - For Rajma<br />
+                  - 2 cups Rajma, soaked overnight<br />
+                  - Salt to taste<br />
+                  - Water to boil<br />
+
+                  For Masala:-<br />
+                  - 1 tbsp ghee<br />
+                  - 1 tsp cumin seeds<br />
+                  - 1 tbsp ginger garlic, coarsely ground<br />
+                  - 3 large onions, chopped/ grated<br />
+                  - Salt to taste<br />
+                  - 1 tsp turmeric powder<br />
+                  - 1 tsp red chilli powder<br />
+                  - 1 tsp coriander powder<br />
+                  - 1 tsp garam masala<br />
+                  - 3 large tomatoes, paste<br />
+                  - For Garnish:-<br />
+                  - Coriander sprig<br />
+                  - Ginger julienne<br />
+
+                  Process:-<br />
+                  ●Add a pinch of salt to the over night soaked rajma, add water and required and boil them in<br />
+                  a pressure cooker for 3-4 whistles.<br />
+                  ● Meanwhile prepare the masala, heat ghee in a pan.<br />
+                  ● Add cumin seeds and saute for a minute. Add coarsely ground ginger garlic and saute till<br />
+                  fragrant.<br />
+                  ● Add onions and saute till they turn brown. Add salt, turmeric powder, red chilli powder,<br />
+                  coriander powder and garam masala. Mix well.<br />
+                  ● Saute for 3-4 minutes. Add tomatoes, mix well and saute till they start leaving their oil.<br />
+                  ● Meanwhile, drain the rajma and reserve the water.<br />
+                  ● Add the boiled rajma to the prepared masala and saute for 3-4 minutes.<br />
+                  ● Add the reserved water as required, mix well and simmer on medium flame for 4-5 minutes.<br />
+                  ● Garnish with ginger julienne and coriander sprig.<br />
+                  ● Serve hot with rice.<br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col4 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/Q4cSiiYa6_w"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                
+                  Malai Kofta Recipe | By Kunal Kapur
+                </h5>
+                <p class="card-text overflow">
+                  Ingredients: <br />
+
+                  - For Malai Kofta Curry :<br />
+                  - Tel (Oil) - 1tbsp<br />
+                  - Makhan (Butter) - 2tbsp<br />
+                  - Dal Chini (Cinnamon) (2”) - 1stick <br />
+                  - Tej Patta (Bayleaf) - 1no<br />
+                  - Laung (Cloves) - 3nos<br />
+                  - Kali Elichi (Black cardamom) - 1no<br />
+                  - Elichi (cardamom) - 3nos<br />
+                  - Shahi Jeera (caraway) - 1tsp<br />
+                  - Pyaz (onion) chopped - 1 cup <br />
+                  - Hari Mirch (green chilli) chopped - 1 no<br />
+                  - Lehsun (garlic) chopped - 1tbsp<br />
+                  - Adrak (ginger) chopped - 1tbsp<br />
+                  - Haldi (turmeric) - ⅓ tsp<br />
+                  - Kashmiri chilli powder - 1 tbsp<br />
+                  - Dhaniya (coriander powder) - 1tbsp<br />
+                  - Jeera powder (Cumin) - ½ tbsp<br />
+                  - Tamatar (tomato) chopped - 2cups<br />
+                  - Namak (salt) - to taste<br />
+                  - Kaju (cashewnts) - handful<br />
+                  - Pani (water) - 2½ cups<br />
+                  - Kasoori Methi Powder - ½ tsp<br />
+                  - Chini (Sugar) - 1tbspv<br />
+                  - Cream - ¼ cup <br />
+                  
+                  For Kofta :<br />
+                  - Paneer (cottage cheese) - 1cup<br />
+                  - Aloo (potato) boiled & mashed - 1cup<br /> 
+                  - Dhaniya (Coriander) chopped - 1tbsp<br />
+                  - Adrak (ginger) chopped - ½ tbsp<br />
+                  - Hari Mirch (green chilli) chopped - 1 no<br />
+                  - Cornflour/Cornstarch - 1½ tbsp<br />
+                  - Namak (salt) - to taste<br />
+                  - Kaju (cashewnts) chopped - 2tbsp<br />
+                  - Tel (oil) - for frying<br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col1 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+
+              
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/j-ucNH4rGC0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  chole Recipe | By Kunal Kapur
+                  
+                </h5>
+                <p class="card-text overflow">
+                  Ingredients (Serves 6):<br />
+FOR BOILING CHOLE-<br />
+- 2 cups Kabuli chana (small size)<br />
+- 6 cups Water<br />
+- 3-4 slices Amla (dried)<br />
+- 1½ tbsp Tea Leaves<br />
+- to taste Salt<br />
+- 1½ tsp Baking Soda<br />
+
+FOR CHOLE MASALA-<br />
+- 3-4nos Dry red chillies<br />
+- 1-2nos Bayleaf<br />
+- 6 tbsp Coriander seeds<br />
+- 3 tbsp Cumin<br />
+- 10-12 nos Peppercorn<br />
+- 7-8 nos Cloves<br />
+- 7-8 nos Cardamom<br />
+- a small piece of Mace<br />
+- 3 nos Cinnamon (1inch)<br />
+- ¼ no Nutmeg<br />
+- 3 nos Black cardamom<br />
+- 2 tsp Ajwain<br />
+- 2 tbsp Kasoori methi (dried)<br />
+- 4 tbsp Anardana Powder<br />
+- 2½ tbsp Amchur powder<br />
+
+FOR WET MASALA-<br />
+- ½ cup Oil<br />
+- ½ tsp Heeng (asafoetida)<br />
+- 2 tsp Garlic chopped<br />
+- 1 tbsp Ginger chopped<br />
+- 2 nos green chilli Slit<br />
+- ½ cup Onion chopped<br />
+- ½ tsp Turmeric<br />
+- ¾ tsp Kashmiri chilli powder<br />
+- 3 tbsp Chole Masala<br />
+- a dash Water<br />
+- ¾ cup Tomatoes (freshly pureed)<br />
+- to taste Black salt<br />
+- to taste Salt<br />
+- 2tbsp Tamarind Water<br />
+
+FOR TEMPERING:-<br />
+- 1tbsp Desi Ghee<br />
+- 1tsp Kashmiri chilli powder<br />
+
+FOR GARNISH :<br />
+- Boiled Potato diced<br />
+- Paneer Cubes<br />
+- Pickled Chilli<br />
+- Onion Rings<br />
+
+HUMMUS USING LEFTOVER PINDI CHOLE :<br />
+- 1 cup Leftover Pindi Chole<br />
+- 2 tbsp Onion chopped<br />
+- 2 tbsp Tomato chopped<br />
+- ½ no Green chilli chopped<br />
+- 2 nos Lemon Wedges<br />
+- Handful Coriander chopped<br />
+- Few Pita Bread<br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn4">Load More</button>
+      </div>
+
+      <!-- for load more button -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(".col4").slice(0, 2).show();
+        $(".btn4").on("click", function () {
+          $(".col4:hidden").slice(0, 2).slideDown();
+          if ($(".col4:hidden").length == 0) {
+            $(".btn4").fadeOut("slow");
+          }
+        });
+      </script>
+    </div>
+
+    <!--Kacchi  coooking video section -->
+    <div>
+      <div class="box">
+        <button type="button" class="btn-danger btn-lg disabled">
+          <h3 id="DessertItems">Dessert :</h3>
+        </button>
+
+        <br />
+        <br />
+
+        <div
+          class="
+            row row-cols-md-1 row row-cols-1 row row-cols-sm-1 row-cols-lg-2
+          "
+        >
+          <div class="col col5 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/878WHgjtoMo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Kheer & Phirni | By Ranveer Brar
+                </h5>
+
+                <p class="card-text overflow">
+                  
+Preparation time 15 minutes<br />
+Cooking time 35-40 minutes<br />
+Serving 4<br />
+
+Ingredients :<br />
+- For Kheer<br />
+- 50-60 gm Short grain rice (Kolum, Sona masuri), washed & soaked , चावल<br />
+- 1 ltr Milk , दूध<br />
+- Few Vetiver roots , खस की जड़<br />
+- 100 gm Sugar , चीनी<br />
+
+For Garnish :<br />
+- Almond, sliced , बादाम<br />
+
+For Phirni :<br />
+- 50 gm Short grain rice (Kolum, Sona masuri), washed & dried , चावल<br />
+- 1 ltr Milk , दूध<br />
+- ½ cup Milk , दूध<br />
+- 1 tsp Saffron , केसर<br />
+- 100 gm Sugar , चीनी<br />
+
+For Garnish :<br />
+- Pistachio, sliced , पिस्ता<br />
+
+For Gulatthi :<br />
+- 1 cup cooked Rice , पके हुए चावल<br />
+- ½-¾ cup Water , पानी<br />
+- ¾-1 cup Milk , दूध<br />
+- 1 ltr Milk , दूध<br />
+- 2-3 Green cardamom, crushed , हरी इलायची<br />
+- ¾-1 cup Sugar , चीनी<br />
+- 2 tbsp Rose water , गुलाब जल<br />
+
+For Garnish :<br />
+- Dried Rose petals , सूखे हुए गुलाब की पंखुड़ियां<br />
+
+Process :<br />
+For Kheer<br />
+● In a kadai add milk bring it to a boil then add the washed & soaked rice.<br />
+● Let it cook on medium heat for some time then add the vetiver roots in a muslin<br />
+cloth and continue cooking until the rice has cooked properly.<br />
+● Remove the roots from the kheer and add sugar in it, stir it properly and give <br />
+it one last boil then switch off the flames.<br />
+● Serve hot or cold and garnish with sliced almonds.<br />
+
+For Phirni :<br />
+● Take the washed, soaked & dried rice and make a coarse powder.<br />
+● Put this powder in a bowl add milk, saffron and mix it properly.<br />
+● In a kadai heat milk then add the milk rice mixture and continue cooking on medium <br />
+● Heat until the rice has cooked and the mixture has thickened.<br />
+● Now add sugar and continue cooking for another 3-4 minutes and switch off the flames.<br />
+● Serve hot or cold and garnish with sliced pistachio.<br />
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col5 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/g4As2DDoUVI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Punjabi Lassi | By Swaad Anusar
+                </h5>
+                <p class="card-text overflow">
+                 
+Ingredients:-<br />
+- 400gms. Curd<br />
+- 7-8 tbsp. Sugar<br />
+- ½ tsp. Cardamom Powder<br />
+- Ice Cubes<br />
+
+Method:-<br />
+● Blend all the ingredients together in a mixer/grinder.<br />
+● Garnish with saffron strands, pistachios and almonds.<br />
+
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col5 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/4OgBldTs0us"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Shahi Tukra | By Chef Ranveer Brar
+                </h5>
+                <p class="card-text overflow">
+                  
+Preparation time: 30 minutes<br />
+Cooking time: 25 minutes<br />
+Serves: 2-4<br />
+
+Ingredients:<br />
+- For Milk syrup<br />
+- 1 ½ cups Milk, दूध<br />
+- 1 ½ cups Sugar, चीनी<br />
+- 4-5 Saffron strands, केसर<br />
+- Pinch of Cardamom powder, इलायची पाउडर<br />
+- 5-8 Bread sliced, ब्रेड<br />
+- Ghee for frying, घी<br />
+
+For Instant Rabri : <br />
+- Remaining Sweetened Milk, मीठा दूध<br />
+- ¾ cup Condensed milk, कंडेंस्ड मिल्क<br />
+- 2-4 Bread sliced, crumble, ब्रेड<br />
+- Pinch of Saffron, केसर<br />
+- ¼ tsp Cardamom powder, इलायची पाउडर<br />
+- 1 tsp Rose water, गुलाब जल<br />
+- ½ cup Milk, दूध<br />
+
+For Garnish : <br />
+- Saffron milk, केसर वाला दूध<br />
+- Rose petals, गुलाब की पंखुड़ियां<br />
+- Mint leaves, पुदीना पता<br />
+- Pistachios, blanched, slice, पिस्ता<br />
+- Silver warq, चांदी का वर्क<br />
+- Icing sugar, आइसिंग शुगर<br />
+
+Process : <br />
+● First, slice the crust of the bread. Cut them into triangles and keep it aside.<br />
+● Heat ghee in a deep pan, fry the bread slices on medium heat.<br />
+● Fry from both sides till it gets nice golden brown in color and crisp.<br />
+● Drain the bread slices on a paper towel.<br />
+● Now , dip the bread slices in the milk syrup. With the help of a spoon coat the bread slice evenly. <br />
+● Arrange the milk syrup soaked bread slices neatly in a serving tray.<br />
+● Sprinkle some cardamom powder on top of it and keep it aside for future use.<br />
+
+For Instant Rabri :<br />
+● Now strain the remaining sweeten milk in a deep pan, add condensed milk and stir well.<br />
+● Add crumble bread slice, pinch of saffron, cardamom powder, rose water and milk mix.<br />
+everything well.<br />
+● Now , blend the rabri to a smooth texture and keep it for cooling.<br />
+● Pour the rabri on the milk syrup coated bread slices evenly.<br />
+● Keep in the refrigerator to cool.<br />
+● Garnish with saffron milk, rose petals, mint leaves, pistachios, silver work and icing sugar.<br />
+● Serve chilled shahi tukda.<br />
+For Milk syrup<br />
+● Heat milk in a saucepot, add sugar, saffron strands and stir well. Let it boil for 2 to 5 minutes.<br />
+                 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col5 mb-4">
+            <div class="card cardbox" style="height: 100%; width: 100%">
+              <iframe
+                class="mx-auto video"
+                width="100%"
+                height="475"
+                src="https://www.youtube.com/embed/u50h9LRhVB4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Besan Laddu Recipe | By Kabita's Kitchen
+
+                </h5>
+                <p class="card-text overflow">
+                  Preparation time - 30 minutes<br />
+No of laddus - 9 to 10<br />
+
+Ingredients:<br />
+- Gram flour (besan)- 2 cups<br />
+- Powdered sugar or bhura - 1/2 cup<br />
+- Ghee - 1/2 cup<br />
+- Cardamom powder -1/2 tsp<br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn5">Load More</button>
+      </div>
+
+      <!-- for load more button -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(".col5").slice(0, 2).show();
+        $(".btn5").on("click", function () {
+          $(".col5:hidden").slice(0, 2).slideDown();
+          if ($(".col5:hidden").length == 0) {
+            $(".btn5").fadeOut("slow");
+          }
+        });
+      </script>
+    </div>
+
+    
+
+   
+  </body>
+</html>
